@@ -2,6 +2,52 @@
 
 # WaveDrom editor
 
+> ### 非官方分支 / Unofficial fork
+>
+> **中文** — 本仓库是 [WaveDrom Editor](https://github.com/wavedrom/wavedrom.github.io) 的
+> **非官方分支**，基于上游 **v3.7.0**（`adb503d`），由 **Deerczl** 维护，版本号标为
+> `3.7.1-dsh`。它与原作者 Aliaksei Chapyzhenka 及 WaveDrom 项目**无从属关系，也未获其背书**：
+> 请勿把本分支的问题反馈给上游，也请勿以原作者名义宣传本分支。
+>
+> 上游以 **MIT 许可证**发布，本分支**完整保留**原始 [LICENSE](LICENSE) 与版权声明
+> （`Copyright (c) 2011-2026 Aliaksei Chapyzhenka`），本分支新增与修改的部分同样以 **MIT** 发布。
+> 任何再分发（含下面打出的桌面应用 zip）都必须保留 `LICENSE`、本说明与上游版权声明，并注明
+> 修改内容。
+>
+> **本分支的改动**：编辑器内置示例换成覆盖完整语法的综合演示（波形字符、间隙与重复、分组、
+> `period`/`phase`、`over`/`under`、`node`/`edge` 箭头、`head`/`foot` 富文本、全部色码、新增的
+> 6 个马卡龙色、`config.cursor` 游标与 `latency` 延迟通道），并配套 `wavedrom` 引擎的
+> `3.7.1-dsh`（`latency` 像素级精度、`config.cursor`、字母色码 `a b c e f g`）。详见
+> [CHANGES.md](CHANGES.md)；随包分发的第三方组件及其许可（NW.js/Chromium/Node、CodeMirror、
+> Lo-Dash、Underscore、SyntaxHighlighter、WaveDrom 引擎及其依赖）见
+> [THIRD-PARTY.md](THIRD-PARTY.md) —— 该文件也会被一起打进应用包。
+>
+> **English** — This repository is an **unofficial fork** of
+> [WaveDrom Editor](https://github.com/wavedrom/wavedrom.github.io), based on upstream
+> **v3.7.0** (`adb503d`), maintained by **Deerczl** and versioned `3.7.1-dsh`. It is
+> **not affiliated with, nor endorsed by** the original author or the WaveDrom
+> project: please do not report this fork's issues upstream, and do not present it
+> as the original work.
+>
+> Upstream is released under the **MIT licence**; this fork **keeps** the original
+> [LICENSE](LICENSE) and copyright notice
+> (`Copyright (c) 2011-2026 Aliaksei Chapyzhenka`), and its own changes are MIT as
+> well. Any redistribution — including the desktop application zip built below —
+> must keep `LICENSE`, this notice and the upstream copyright notice, and must
+> state what was changed.
+>
+> **What this fork changes**: the editor's built-in example is now a full-feature
+> demo (wave characters, gaps and repeaters, groups, `period`/`phase`,
+> `over`/`under`, `node`/`edge` arrows, `head`/`foot` with tspan styles, every
+> colour code, the six new macaron colours, `config.cursor` cursors and `latency`
+> lanes), together with the `wavedrom` engine fork `3.7.1-dsh` (pixel-precise
+> `latency`, `config.cursor`, lettered colour codes `a b c e f g`). See
+> [CHANGES.md](CHANGES.md); the third-party components shipped with the app
+> (NW.js/Chromium/Node, CodeMirror, Lo-Dash, Underscore, SyntaxHighlighter, the
+> WaveDrom engine and its dependencies) and their licences are listed in
+> [THIRD-PARTY.md](THIRD-PARTY.md) — that file is bundled into the application
+> package as well.
+
 [WaveDromEditor](http://wavedrom.com/editor.html) is real-time editor of digital timing diagrams based on [WaveDrom](https://github.com/wavedrom/wavedrom) engine and [WaveJSON](https://github.com/wavedrom/schema/blob/master/WaveJSON.md) format.
 
 See [Tutorial](http://wavedrom.com/tutorial.html) for more examples.
