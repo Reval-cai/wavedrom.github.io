@@ -3,5 +3,6 @@ cache
 build
 src
 package-lock.json
+pnpm-lock.yaml
 build.sh
 TMP_RELEASE_NOTES.md

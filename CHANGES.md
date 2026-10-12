@@ -1,0 +1,32 @@
+# Changes in this fork — 3.7.1-dsh
+
+Based on upstream `wavedrom/wavedrom.github.io` v3.7.0 (`adb503d`). Licence stays
+MIT.
+
+## Changed
+
+* The editor's built-in example (`init.js`) is now a **full-feature demo**: wave
+  characters, gaps and repeaters, groups, `period`/`phase`, `over`/`under`,
+  `node`/`edge` arrows, `head`/`foot` with `tspan` styles, every colour code
+  including the six new macaron colours, `config.cursor` cursors and `latency`
+  lanes. It opens with the app and with the page.
+* An installation whose stored document is still the previous built-in example
+  picks up the new demo once (`PREVIOUS_DEMO`); anything the user wrote is left
+  untouched.
+* `editor.html` title restored to `WaveDrom Editor`.
+* `package.json` and `WaveDromEditor/package.json` version bumped to `3.7.1-dsh`.
+
+## Building the desktop app
+
+Upstream `./build-wde.sh` stages the app and calls
+`drom/simple-nwjs-app/build.sh` with nw.js v0.115.0. This fork's build helper
+keeps the core library local: when `../wavedrom/wavedrom.min.js` exists it is
+copied into the app, so a locally built library (with `latency`, `config.cursor`
+and the lettered colours) ends up in the app; otherwise the published npm
+`wavedrom` package is used, exactly as upstream does.
+
+## Notes
+
+* The library side of these features lives in the `wavedrom` repository fork,
+  version `3.7.1-dsh`.
+* `pnpm-lock.yaml` is not committed (see `.gitignore`).
