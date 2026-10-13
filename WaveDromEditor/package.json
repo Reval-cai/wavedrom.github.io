@@ -1,7 +1,7 @@
 {
     "name": "WaveDromEditor",
     "main": "editor.html",
-    "version": "3.7.2-dsh",
+    "version": "3.7.3-dsh",
     "window": {
         "icon":"images/logo.png",
         "toolbar": false,

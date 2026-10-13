@@ -1,7 +1,7 @@
 {
   "name": "wavedrom-editor",
   "description": "WaveDrom editor",
-  "version": "3.7.2-dsh",
+  "version": "3.7.3-dsh",
   "main": "index.js",
   "directories": {
     "doc": "doc"
@@ -29,7 +29,7 @@
     "@drom/eslint-config": "^0.12.0",
     "codemirror": "^5.65.18",
     "eslint": "^8.57.1",
-    "wavedrom": "github:Reval-cai/wavedrom#v3.7.2-dsh"
+    "wavedrom": "github:Reval-cai/wavedrom#v3.7.3-dsh"
   },
   "eslintConfig": {
     "extends": "@drom/eslint-config/eslint4/node4"
