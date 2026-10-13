@@ -5,7 +5,7 @@
 > ### 非官方分支 / Unofficial fork
 >
 > **中文** — 本仓库是 [WaveDrom Editor](https://github.com/wavedrom/wavedrom.github.io) 的
-> **非官方分支**，基于上游 **v3.7.0**（`adb503d`），由 **Deerczl** 维护，版本号标为
+> **非官方分支**，基于上游 **v3.7.0**（`adb503d`），由 **Reval-cai** 维护，版本号标为
 > `3.7.1-dsh`。它与原作者 Aliaksei Chapyzhenka 及 WaveDrom 项目**无从属关系，也未获其背书**：
 > 请勿把本分支的问题反馈给上游，也请勿以原作者名义宣传本分支。
 >
@@ -24,7 +24,7 @@
 >
 > **English** — This repository is an **unofficial fork** of
 > [WaveDrom Editor](https://github.com/wavedrom/wavedrom.github.io), based on upstream
-> **v3.7.0** (`adb503d`), maintained by **Deerczl** and versioned `3.7.1-dsh`. It is
+> **v3.7.0** (`adb503d`), maintained by **Reval-cai** and versioned `3.7.1-dsh`. It is
 > **not affiliated with, nor endorsed by** the original author or the WaveDrom
 > project: please do not report this fork's issues upstream, and do not present it
 > as the original work.
@@ -81,13 +81,13 @@ cp node_modules/wavedrom/skins/*.js skins/
 ```
 
 > **本分支 / This fork**：`package.json` 的依赖已指向本分支的引擎
-> [`Deerczl/wavedrom#v3.7.1-dsh`](https://github.com/Deerczl/wavedrom/releases/tag/v3.7.1-dsh)，
+> [`Reval-cai/wavedrom#v3.7.2-dsh`](https://github.com/Reval-cai/wavedrom/releases/tag/v3.7.2-dsh)，
 > 仓库内置的 `wavedrom.min.js` 就是该构建，因此**直接从本仓库打开 `editor.html`** 也能使用
 > `latency`、`config.cursor` 与字母色码。皮肤文件**未改动**：新颜色由引擎在运行时从皮肤已有的
 > 彩色字形家族克隆生成。
 >
 > The dependency points at this fork's engine
-> ([`Deerczl/wavedrom#v3.7.1-dsh`](https://github.com/Deerczl/wavedrom/releases/tag/v3.7.1-dsh))
+> ([`Reval-cai/wavedrom#v3.7.2-dsh`](https://github.com/Reval-cai/wavedrom/releases/tag/v3.7.2-dsh))
 > and the bundled `wavedrom.min.js` **is** that build, so opening `editor.html`
 > straight from this repository also gets `latency`, `config.cursor` and the
 > lettered colour codes. The skin files are **unchanged**: the new colours are
