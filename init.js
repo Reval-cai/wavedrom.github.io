@@ -134,6 +134,7 @@
         '    { name: \'tri\',   wave: \'z.u.d.x.......\' },',
         '    {},',
         '    { name: \'macaron\', wave: \'x.axbxcxexfxgx\', data: \'a1 b1 c1 e1 f1 g1\' },',
+        '    { name: \'macaron2\', wave: \'x.axbxcxefgx\', data: \'a b c e f g\' },',
         '    { name: \'phased\',  wave: \'x.3x=x........\', data: \'PH\', phase: 0.5 },',
         '    { name: \'period2\', wave: \'P......\', period: 2 },',
         '    {},',
