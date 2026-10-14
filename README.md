@@ -66,7 +66,7 @@ WaveDrom Editor 是 WaveDrom 引擎的**实时编辑器**：左边写 WaveJSON�
 |---|---|---|
 | 🟩 | **内置示例换成完整功能演示** | 编辑器打开即是一份覆盖全部语法的演示：波形字符、间隙与重复、分组、`period`/`phase`、`over`/`under`、`node`/`edge` 箭头、`head`/`foot` 富文本、全部色码、6 个马卡龙色、`config.cursor` 游标、`latency` 延迟通道、同色相邻的字母相连格 |
 | 🟨 | **已装旧版示例的机器升级一次** | 若本机保存的文档仍是**上一个内置示例**，会被替换成新演示；**用户自己写的内容不动** |
-| 🟩 | **内置引擎升级到 `3.7.3-dsh`** | `wavedrom.min.js` 是本分支引擎的构建，`package.json` 依赖指向 `github:Reval-cai/wavedrom#v3.7.3-dsh`，所以**直接打开本仓库的 `editor.html`** 也能用新功能 |
+| 🟩 | **内置引擎升级到 `3.7.3-dsh`** | `wavedrom.min.js` 是本分支引擎的构建，内置文件就是本分支的构建（npm 依赖保持上游 `^3.7.0`：指向本分支的 git 地址会让 `npm install` 因 `prepare` 脚本失败），所以**直接打开本仓库的 `editor.html`** 也能用新功能 |
 | 🟨 | **版本号** | `package.json` 与 `WaveDromEditor/package.json` 标为 `3.7.x-dsh` |
 | 🟨 | **窗口标题** | `editor.html` 标题恢复为 `WaveDrom Editor`（上游值） |
 | 🟩 | **桌面包带许可文件** | 打出的应用压缩包**顶层**包含 `LICENSE` 与 `THIRD-PARTY.md` |

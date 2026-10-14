@@ -68,7 +68,7 @@ All upstream v3.7.0, **unchanged** here.
 |---|---|---|
 | 🟩 | **A full-feature built-in example** | the editor opens with a demo that exercises the whole format: wave characters, gaps and repeaters, groups, `period`/`phase`, `over`/`under`, `node`/`edge` arrows, `head`/`foot` rich text, every colour code, the six macaron colours, `config.cursor` cursors, `latency` lanes and equal-letter connectors |
 | 🟨 | **One-time upgrade for old built-ins** | an installation still holding the *previous built-in example* is upgraded once; **user-authored content is left untouched** |
-| 🟩 | **Bundled engine upgraded to `3.7.3-dsh`** | `wavedrom.min.js` is this fork's build and `package.json` depends on `github:Reval-cai/wavedrom#v3.7.3-dsh`, so `editor.html` served from a checkout gets the new features too |
+| 🟩 | **Bundled engine upgraded to `3.7.3-dsh`** | `wavedrom.min.js` is this fork's build (the npm dependency stays the upstream `^3.7.0`: pointing it at the fork git URL breaks `npm install` on the `prepare` script), so `editor.html` served from a checkout gets the new features too |
 | 🟨 | **Version** | `package.json` and `WaveDromEditor/package.json` are versioned `3.7.x-dsh` |
 | 🟨 | **Window title** | `editor.html` title restored to the upstream value `WaveDrom Editor` |
 | 🟩 | **Licence files in the app package** | the built zip carries `LICENSE` and `THIRD-PARTY.md` at its **top level** |
